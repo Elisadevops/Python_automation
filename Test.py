@@ -9,3 +9,6 @@ pip3 install pandas gspread oauth2client
 
 
 Go to Google Cloud Console: https://console.cloud.google.com/
+
+Steps:
+pip3 install pandas gspread oauth2client
