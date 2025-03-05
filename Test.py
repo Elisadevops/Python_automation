@@ -4,3 +4,8 @@
 brew install python
 
 python3 --version
+
+pip3 install pandas gspread oauth2client
+
+
+Go to Google Cloud Console: https://console.cloud.google.com/
