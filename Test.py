@@ -1,21 +1,3 @@
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-brew install python
-
-python3 --version
-
-pip3 install pandas gspread oauth2client
-
-
-Go to Google Cloud Console: https://console.cloud.google.com/
-
-Steps:
-pip3 install pandas gspread oauth2client
-
-
-
-
 import gspread
 import pandas as pd
 from google.oauth2.service_account import Credentials
@@ -23,7 +5,7 @@ from google.oauth2.service_account import Credentials
 print("🔄 Starting script...")
 
 # Step 1: Authenticate with Google Sheets API
-SERVICE_ACCOUNT_FILE = "acquired-voice-452303-c3-72708a278c1e.json"
+SERVICE_ACCOUNT_FILE = "303-c3-72708a278c1e.json"
 SCOPES = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 
 creds = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
